@@ -1,5 +1,7 @@
 # Guxo: Speak Boldly
 
+**Live:** https://aristxa.github.io/Speak-UP/
+
 A bilingual (English / Albanian) web app that helps people overcome their fear of public speaking.
 The app gives you a prompt and a short time to prepare. You then speak on it until the timer runs out.
 Your pace, filler words and nerves are tracked over time.
