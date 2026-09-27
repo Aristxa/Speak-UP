@@ -3,8 +3,8 @@
 const STRINGS = {
   en: {
     tagline: 'Dare to speak',
-    'nav.home': 'Home', 'nav.practice': 'Practise', 'nav.topics': 'Topics', 'nav.progress': 'Progress',
-    'aria.theme': 'Switch colour theme', 'aria.lang': 'Switch language',
+    'nav.home': 'Home', 'nav.practice': 'Practice', 'nav.topics': 'Topics', 'nav.progress': 'Progress',
+    'aria.theme': 'Switch color theme', 'aria.lang': 'Switch language',
     footer: 'Made for brave voices. Your recordings and data stay in your browser.',
 
     'home.title': 'Speak up. Fear less.',
@@ -17,7 +17,7 @@ const STRINGS = {
     'home.daily': "Today's challenge",
     'home.dailyGo': 'Take the challenge',
     'home.dailyDone': 'Done today',
-    'home.modes': 'Ways to practise',
+    'home.modes': 'Ways to practice',
     'home.path': 'Your Courage Path',
     'home.pathLead': 'Speak for the full time 3 times to unlock the next level.',
     'home.streak': 'day streak',
@@ -49,7 +49,7 @@ const STRINGS = {
     'practice.transcript.d': 'Counts words, pace and fillers like "um".',
     'practice.transcriptNA': 'Not supported in this browser. Try Chrome or Edge.',
     'practice.camera': 'Camera mirror',
-    'practice.camera.d': 'See yourself and practise eye contact. The video is recorded for replay.',
+    'practice.camera.d': 'See yourself and practice eye contact. The video is recorded for replay.',
     'practice.start': 'Start',
     'practice.privacy': 'Everything stays on your device. Nothing is uploaded.',
 
@@ -73,7 +73,7 @@ const STRINGS = {
     'session.against': 'Now argue AGAINST',
     'session.switch': 'Switch sides!',
     'session.storyHint': 'Use all three words in one story',
-    'session.micError': 'Microphone unavailable. You can still practise with the timer, but nothing will be recorded.',
+    'session.micError': 'Microphone unavailable. You can still practice with the timer, but nothing will be recorded.',
     'session.requesting': 'Allow microphone access so you can replay yourself afterwards.',
     'session.wrapping': 'Wrapping up…',
     'session.live': 'Live transcript',
@@ -118,13 +118,13 @@ const STRINGS = {
     'fb.brave': "You started nervous and spoke anyway. That's real courage.",
 
     'topics.title': 'Browse topics',
-    'topics.lead': 'Pick a topic and practise with any word or question, or let us surprise you.',
+    'topics.lead': 'Pick a topic and practice with any word or question, or let us surprise you.',
     'topics.search': 'Search prompts…',
     'topics.words': 'Words',
     'topics.questions': 'Questions',
     'topics.debates': 'Debates',
     'topics.random': 'Random from this topic',
-    'topics.practice': 'Practise',
+    'topics.practice': 'Practice',
     'topics.count': '{n} prompts',
     'topics.back': 'All topics',
     'topics.none': 'Nothing found.',
@@ -152,8 +152,8 @@ const STRINGS = {
     'progress.session': 'Session',
 
     'badge.first': 'First Words', 'badge.first.d': 'Complete your first session',
-    'badge.streak3': 'On a Roll', 'badge.streak3.d': 'Practise 3 days in a row',
-    'badge.streak7': 'Unstoppable', 'badge.streak7.d': 'Practise 7 days in a row',
+    'badge.streak3': 'On a Roll', 'badge.streak3.d': 'Practice 3 days in a row',
+    'badge.streak7': 'Unstoppable', 'badge.streak7.d': 'Practice 7 days in a row',
     'badge.ten': 'Regular', 'badge.ten.d': 'Complete 10 sessions',
     'badge.marathon': 'Marathon', 'badge.marathon.d': 'Speak for 3 minutes in one go',
     'badge.smooth': 'Smooth Talker', 'badge.smooth.d': 'Speak for over a minute with no filler words',
@@ -161,8 +161,8 @@ const STRINGS = {
     'badge.storyteller': 'Storyteller', 'badge.storyteller.d': 'Complete a story session',
     'badge.brave': 'Lionheart', 'badge.brave.d': 'Finish a session that you started very nervous',
     'badge.calmer': 'Calm Waters', 'badge.calmer.d': 'Lower your nervousness by 2+ points in one session',
-    'badge.explorer': 'Explorer', 'badge.explorer.d': 'Practise 5 different topics',
-    'badge.bilingual': 'Bilingual', 'badge.bilingual.d': 'Practise in both English and Albanian',
+    'badge.explorer': 'Explorer', 'badge.explorer.d': 'Practice 5 different topics',
+    'badge.bilingual': 'Bilingual', 'badge.bilingual.d': 'Practice in both English and Albanian',
   },
 
   sq: {
