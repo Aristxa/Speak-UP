@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Guxo · Speak Boldly</title>
+  <meta name="description" content="Practise public speaking with random prompts, timers and gentle feedback, in English and Albanian.">
+  <meta name="theme-color" content="#0f766e">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎤</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/identity.css">
+</head>
+<body>
+  <a class="skip-link" href="#app">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#/"><span class="brand-mark" aria-hidden="true">🎤</span>Guxo</a>
+      <nav class="nav" aria-label="Main">
+        <a href="#/" data-route="" data-i18n="nav.home">Home</a>
+        <a href="#/practice" data-route="practice" data-i18n="nav.practice">Practise</a>
+        <a href="#/topics" data-route="topics" data-i18n="nav.topics">Topics</a>
+        <a href="#/progress" data-route="progress" data-i18n="nav.progress">Progress</a>
+      </nav>
+      <div class="header-actions">
+        <button type="button" class="icon-btn lang-btn" id="lang-btn">SQ</button>
+        <button type="button" class="icon-btn" id="theme-btn">🌙</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="app" class="container" tabindex="-1"></main>
+
+  <footer class="site-footer">
+    <p data-i18n="footer"></p>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/prompts.js"></script>
+  <script src="js/audio.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
